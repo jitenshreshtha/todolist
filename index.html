@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>To Do List</h2>
+
+    <label for="">Add a Task:</label>
+    <input type="text" placeholder="task ko naam" id="taskName"><br/>
+
+    <label for="">Assigned to:</label>
+    <input type="text" placeholder="kaslai ho kaam?" id="taskAssigned"><br/>
+
+    <label for="">Due Date:</label>
+    <input type="date" id="taskDate"><br/>
+
+    <label for="">Priority:</label>
+    <select name="" id="taskPriority">
+        <option value="Low">Low</option>
+        <option value="Mdeium">Medium</option>
+        <option value="High">High</option>
+    </select><br/>
+
+    <label for="">Status:</label>
+    <select name="" id="taskStatus">
+        <option value="Pending">Pending</option>
+        <option value="InProgress">Inprogress</option>
+        <option value="Completed">Completed</option>
+    </select><br/>
+    <input type="button" value="Add a Task" id="addBtn"><br/>
+
+
+    <div>
+        <h2>Tasks</h2>
+        <ul id="taskEnlisted"></ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
